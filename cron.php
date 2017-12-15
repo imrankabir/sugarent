@@ -12,6 +12,10 @@
  */
 //change directories to where this file is located.
 chdir(dirname(__FILE__));
+
+
+if(true){}
+
 define('ENTRY_POINT_TYPE', 'api');
 require_once('include/entryPoint.php');
 
